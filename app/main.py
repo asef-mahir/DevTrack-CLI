@@ -1,8 +1,11 @@
+from app.database import init_db
 from app.services import task_service
 from rich.console import Console
 console = Console()
 
 def main():
+    init_db.initialize_database()
+    
     while True:
         console.print("[bold green] Welcome to your personal Task Manager [/bold green]")
         console.print("[bold magenta] -------------- DevTack -------------- [/bold magenta]")
