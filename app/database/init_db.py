@@ -32,7 +32,7 @@ def initialize_database():
 
     connection.commit()
 
-    print("Tables created successfully.")
+    #print("Tables created successfully.")
 
     cursor.close()
     connection.close()
