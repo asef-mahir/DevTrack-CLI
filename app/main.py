@@ -10,6 +10,7 @@ def main():
     init_db.initialize_database()
 
     while True:
+        console.clear()
         console.print("[bold green]Welcome to your personal Task Manager [/bold green]")
         console.print("[bold green]-------------- DevTack -------------- [/bold green]")
         print("\n")
