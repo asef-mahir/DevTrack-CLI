@@ -212,5 +212,3 @@ This project demonstrates:
 ## Status
 
 DevTrack is a learning-focused portfolio project. It is not intended to be a full productivity platform, but it demonstrates practical Python, MySQL integration, CLI design, and project organization in a clean and structured way.
-
-```
