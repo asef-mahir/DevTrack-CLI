@@ -85,6 +85,8 @@ def complete_task_flow():
             console.print("[bold cyan]Task Completed [/bold cyan]")
         else:
             console.print("[bold red]Invalid task id [/bold red]")
+            wait_for_menu()
+            break
         if not should_repeat_action("complete another task"):
             break
 
@@ -100,5 +102,7 @@ def delete_task_flow():
             console.print("[bold cyan]Task Deleted [/bold cyan]")
         else:
             console.print("[bold red]Invalid task id [/bold red]")
+            wait_for_menu()
+            break
         if not should_repeat_action("delete another task"):
             break
