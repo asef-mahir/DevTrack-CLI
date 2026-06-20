@@ -65,7 +65,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/asef-mahir/DevTrack-CLI.git
-cd devtrack
+cd DevTrack-CLI
 ````
 
 Create and activate a virtual environment:
@@ -106,7 +106,6 @@ DB_PASSWORD=your_mysql_password
 DB_NAME=devtrack
 ```
 
-Do not commit your `.env` file. It should stay local because it may contain database credentials.
 
 ---
 
