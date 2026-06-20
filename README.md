@@ -1,4 +1,4 @@
-# DevTrack
+# DevTrack CLI
 
 DevTrack is a command-line task manager built with Python and MySQL. It provides task creation, completion tracking, deletion, and paginated task browsing through a Rich-powered terminal interface.
 
